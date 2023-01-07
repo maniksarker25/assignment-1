@@ -10,7 +10,6 @@
 /*============== Header styles =============*/
 .header {
     width: 100%;
-    text-align: right;
     background-image: url('../images/banner/banner3.png');
     background-size: cover;
     background-repeat: no-repeat;
