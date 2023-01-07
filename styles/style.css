@@ -9,28 +9,29 @@
 
 /*============== Header styles =============*/
 .header {
-    width: 100%;
     background-image: url('../images/banner/banner3.png');
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 216px;
+    padding-bottom: 368px;
+
 
 }
 
 .header-details {
     text-align: right;
-    height: 800px;
-    padding: 220px 230px;
+    
 }
 
 .header-title {
     font-weight: 700;
-    font-size: 120px;
+    font-size: 65px;
     color: white;
 }
 
 .header-description {
     
-    font-size: 26px;
+    font-size: 16px;
     color: white;
 
 }
@@ -50,10 +51,7 @@
     margin: 130px 300px 100px 250px;
 }
 
-.img {
-    width: 800px;
-    height: 1000px;
-}
+
 
 .about-content {
     padding-top: 320px;
@@ -61,13 +59,13 @@
 }
 
 .about-title {
-    font-size: 80px;
+    font-size: 40px;
     margin-bottom: 30px;
     font-weight: 700px;
 }
 
 .about-description {
-    font-size: 40px;
+    font-size: 16px;
 }
 
 .about-list {
@@ -142,7 +140,7 @@
 .footer {
     background-color: black;
     margin-top: 115px;
-    padding: 141px 0 118px 0;
+    padding: 148px 0 111px 0;
 }
 .footer-main{
     display: flex;
