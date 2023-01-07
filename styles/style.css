@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*============== Header styles =============*/
+.header {
+    width: 100%;
+    text-align: right;
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.header-details {
+    text-align: right;
+    height: 800px;
+    padding: 220px 230px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 120px;
+    color: white;
+}
+
+.header-description {
+    
+    font-size: 26px;
+    color: white;
+
+}
+
+.primary-btn {
+    width: 187px;
+    height: 67px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*=========== About style ============ */
+.about {
+    display: flex;
+    margin: 130px 300px 100px 250px;
+}
+
+.img {
+    width: 800px;
+    height: 1000px;
+}
+
+.about-content {
+    padding-top: 320px;
+     margin-left: 150px;
+}
+
+.about-title {
+    font-size: 80px;
+    margin-bottom: 30px;
+    font-weight: 700px;
+}
+
+.about-description {
+    font-size: 40px;
+}
+
+.about-list {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.about-list li i{
+    margin-right: 10px;
+    color: #16D887;
+}
+.about-list li {
+    margin-bottom: 10px;
+    list-style: none;
+
+}
+
+/*================== My plan section styles ==========*/
+.my-plan {
+    
+    text-align: center;
+}
+
+.plan-title {
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+
+.item-title {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.item-description {
+    font-size: 30px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+
+/*================= contact styles ==================*/
+.contact {
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 130px;
+}
+.gradient{
+    background-image: url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contact-title {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+.contact-main {
+    margin-left:64px;
+    padding-top: 69px;
+}
+
+/*============== footer styles ====================*/
+.footer {
+    background-color: black;
+    margin-top: 115px;
+    padding: 141px 0 118px 0;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+.future {
+    color: white;
+}
+
+.future h1 {
+    font-size: 50px;
+}
+.future h1,
+p,
+img {
+    margin-bottom: 30px;
+}
+.icon img{
+    margin-right: 30px;
+}
+
+.subscribe h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.subscribe h1,
+input {
+    margin-bottom: 30px;
+}
+
+.subscribe input {
+    width: 325px;
+    height: 64px;
+    padding-left: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color:black;
+}
