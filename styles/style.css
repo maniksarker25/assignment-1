@@ -111,6 +111,42 @@
     margin-top: 10px;
     opacity: 0.6;
 }
+/*================= blog styles ==================*/
+.blog-main{
+    margin-top: 130px;
+}
+
+.blog-head-title{
+    text-align:center;
+    font-size: 50px;
+    font-weight: 700px;
+}
+.blog-content-main{
+
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-content{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.blog-title{
+    font-size: 14px;
+    color: #333333;
+    text-transform:uppercase;
+}
+.blog-description{
+    font-size: 15px;
+    color: #999999;
+    margin-top: 5px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 30px;
+}
+
+
+
+
 
 /*================= contact styles ==================*/
 .contact {
